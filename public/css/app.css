@@ -1,0 +1,201 @@
+.wrapper-body {
+  position: relative;
+}
+
+.wrapper-body .header {
+  position: fixed;
+  background: #622398;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+.wrapper-body .header .left-area h3 {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.wrapper-body .header .left-area h3 span {
+  color: #FF9800;
+}
+
+.wrapper-body .header .logout_btn {
+  padding: 5px;
+  background: #FF9800;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: background 0.5s;
+}
+
+.wrapper-body .header .logout_btn:hover {
+  background: #ffaa2b;
+}
+
+.wrapper-body .sidebar {
+  background: #7d32be;
+  margin-top: 70px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+
+.wrapper-body .sidebar .profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.wrapper-body .sidebar h4 {
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.wrapper-body .sidebar a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition-property: background;
+}
+
+.wrapper-body .sidebar a:hover {
+  background: #622398;
+}
+
+.wrapper-body .main {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 100px;
+  width: 75%;
+}
+
+.wrapper-body .main form .wrapper-skripsi {
+  font-weight: 700;
+  width: 100%;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group {
+  padding-bottom: 10px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-input #nim {
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 3px;
+  font-size: 16px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-input #nama {
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 3px;
+  font-size: 16px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-input label {
+  margin-right: 34px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-input label.nama {
+  margin-left: 20px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-judul #judul {
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 3px;
+  font-size: 16px;
+  width: 500px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-btn {
+  padding-top: 5px;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-btn button {
+  padding: 5px;
+  color: #fff;
+  border-radius: 2px;
+  background-color: #7d32be;
+  transition: background 0.5s;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-btn button:hover {
+  background-color: #622398;
+}
+
+.wrapper-body .main form .wrapper-skripsi .form-group.form-btn input[type=submit] {
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.wrapper-body .main form .wrapper-skripsi label {
+  margin-right: 25px;
+}
+
+.wrapper-body .main .tableskripsi {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wrapper-body .main .tableskripsi th,
+.wrapper-body .main .tableskripsi td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.wrapper-body .main .tableskripsi tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.wrapper-profile {
+  position: relative;
+}
+
+.wrapper-profile .profile-tab {
+  padding-bottom: 10px;
+}
+
+.wrapper-profile .crudtable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wrapper-profile .crudtable th,
+.wrapper-profile .crudtable td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.wrapper-profile .crudtable tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+

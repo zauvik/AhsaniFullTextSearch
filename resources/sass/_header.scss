@@ -1,0 +1,33 @@
+.header{
+    position: fixed;
+    background: $primary-color;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    .left-area h3{
+        color: #fff;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 900;
+        span{
+            color: $tersier-color;
+        }
+    }
+    .logout_btn{
+        padding: 5px;
+        background: $tersier-color;
+        text-decoration: none;
+        float: right;
+        margin-top: -30px;
+        margin-right: 40px;
+        border-radius: 2px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        transition: background 0.5s;
+        &:hover{
+            background: $quarter-color;
+        }
+    }
+}
