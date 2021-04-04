@@ -18,6 +18,7 @@ class CreateSkripsisTable extends Migration
             $table->string('nim')->unique();
             $table->string('nama');
             $table->string('judulskripsi');
+            $table->string('judulskripsi_preprocessed');
             $table->timestamps();
             $table->primary('nim');
         });

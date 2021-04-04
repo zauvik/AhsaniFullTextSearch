@@ -20,4 +20,7 @@ Route::post('/action','SkripsiController@gateway')->name('skripsi.gateway');
 // Route::post('skripsi/insert', 'SkripsiController@insert')->name('skripsi.insert');
 
 //profile
-Route::get('profile', 'ProfileController@index')->name('profile');
+Route::get('/profile', 'ProfileController@index')->name('profile');
+
+//Stemmer test
+Route::get('/sastrawi', 'SkripsiController@sastrawi');

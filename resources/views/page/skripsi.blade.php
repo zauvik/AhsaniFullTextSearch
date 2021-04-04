@@ -34,6 +34,7 @@
             <th>NIM</th>
             <th>Nama</th>
             <th>Judul Skripsi</th>
+            <th>Judul Skripsi Preprocessed</th>
             <th style="height: 28px; width: 38px;"> % </th>
         </tr>
     </thead>
@@ -43,6 +44,7 @@
             <td>{{ $data->nim }}</td>
             <td>{{ $data->nama }}</td>
             <td>{{ $data->judulskripsi }}</td>
+            <td>{{ $data->judulskripsi_preprocessed }}</td>
             <td>{{ $data->similarity }}</td>
         </tr>
         @endforeach
